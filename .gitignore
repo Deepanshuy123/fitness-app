@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 node_modules/
+=======
+# Ignore dependencies
+node_modules/
+
+# Ignore environment files
+.env
+
+# Build outputs
+dist/
+.tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+>>>>>>> 476d90e (Add root start script and ignore node_modules from git)
