@@ -6,10 +6,12 @@
     "dev": "cd client && npm run dev",
     "build": "cd client && npm run build",
     "lint": "cd client && npm run lint",
-    "preview": "cd client && npm run preview"
+    "preview": "cd client && npm run preview",
+    "start": "serve -s client/dist"
   },
   "dependencies": {
     "axios": "^1.13.6",
-    "recharts": "^3.7.0"
+    "recharts": "^3.7.0",
+    "serve": "^14.2.4"
   }
 }
